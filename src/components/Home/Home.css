@@ -16,6 +16,7 @@
     padding: 40px 180px 40px 180px;
     height: 450px;
     background-color: black;
+    margin-bottom: 200px;
     
 }
 
@@ -43,8 +44,10 @@
     box-shadow: 1px 1px 10px gray;
     padding:20px;
     text-align: justify;
+    border-radius: 10px;
 }
 .shadow-container img{
     object-fit: cover;
     height:300px;
+    border-radius: 10px;
 }

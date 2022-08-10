@@ -13,7 +13,6 @@ function Navbar (){
                 <Link to="/" className="link">Home</Link> 
                 <Link to="/aboutus" className="link">About Us</Link> 
                 <Link to="/contact" className="link">Contact</Link>   
-                <Link to="/submit" className="link">Submit Form</Link> 
             </div>
 
         </div>

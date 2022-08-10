@@ -1,0 +1,10 @@
+.contact-main-container{
+    display: flex;
+    justify-content: space-around;
+    padding:30px 10px 20px 10px;
+}
+.contact-main-container h2{
+   height:300px;
+   width:500px;
+   border: 1px solid;
+}

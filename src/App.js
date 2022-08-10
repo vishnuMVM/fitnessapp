@@ -3,17 +3,18 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
-import Submit from "./components/Submit/Submit";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <BrowserRouter>
     <Navbar/>
     <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/submit" element={<Submit />}/>
+    <Route path="/" element={<Home />} />
+    <Route path="/aboutus" element={<About/>}/>
+    <Route path="/contact" element={<Contact/>}/>
     </Routes>
- 
     <Footer/>
     </BrowserRouter>
   );

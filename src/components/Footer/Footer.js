@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="footer-container">
       <div class="footer-logo-container">
           <img class="logo-img ml-auto" src="https://en.pimg.jp/062/835/873/1/62835873.jpg" alt=".." />
-          <p>
+          <p className="para">
             D.No 16-11-511/c/27,<br/>
             Shalivahana nagar,Moosarambagh,<br/>
             Malakpet,HyderabadTelangana 500036
@@ -22,26 +22,20 @@ export default function Footer() {
         <div className="footer-second-half-element">
           <h1 class="heading">Srikalahasthi Fitness Center</h1>
           <div>
-            <p>
-              <Link to="/">
+            <p className="para">
+              <Link className="footer-link" to="/">
                 Home
               </Link>
             </p>
 
-            <p>
-              <Link to="/submitform">
-                Submit Form
-              </Link>
-            </p>
-
-            <p>
-              <Link to="/aboutus">
+            <p className="para">
+              <Link className="footer-link" to="/aboutus">
                 About Us
               </Link>
             </p>
 
-            <p>
-              <Link to="/contact">
+            <p className="para">
+              <Link className="footer-link" to="/contact">
                 Contact
               </Link>
             </p>
@@ -51,18 +45,19 @@ export default function Footer() {
 
         <div>
           <h1 class="heading">Our Services</h1>
-          <p class="paragraph text-left">Small Group Personal Training</p>
-          <p class="paragraph text-left ">Personal Training</p>
-          <p class="paragraph text-left">nutrition Coaching</p>
-          <p class="paragraph text-left">Online Training</p>
+          <p class="para text-left">Small Group Personal Training</p>
+          <p class="para text-left ">Personal Training</p>
+          <p class="para text-left">nutrition Coaching</p>
+          <p class="para text-left">Online Training</p>
         
       </div>
       </div>
       
       
     </div>
-    <hr class="line" />
-        <p class="paragraph text-center">© Srikalahasthi Fitness Center</p>
+    <hr className="line" />
+        <p className="para text-center">© Srikalahasthi Fitness Center</p>
+        <p className="para">Design and Developed by vishnuvardhan yellampati and lokesh dama</p>
     </div>
   );
 }

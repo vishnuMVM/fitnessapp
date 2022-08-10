@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:linear-gradient(black,gray,gray,black);
+    background-image:gray;
 }
 .logo-img{
     height: 80px;
@@ -19,6 +19,6 @@
     text-decoration: none;
     margin-right: 30px;
     font-size: 18px;
-    color: white;
+    color: black;
 }
 

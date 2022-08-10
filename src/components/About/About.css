@@ -1,0 +1,21 @@
+
+.company-details-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.company-details-container p{
+    height: 300px;
+    width:600px;
+    border:1px solid;
+}
+.company-details-container h2{
+    height: 300px;
+    width:600px;
+    border:1px solid;
+}
+.company-details-container img{
+    height: 300px;
+    width:600px;
+    border:1px solid;
+}
