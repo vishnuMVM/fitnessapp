@@ -9,7 +9,7 @@ export default function Footer() {
     
     <div className="footer-container">
       <div class="footer-logo-container">
-          <img class="logo-img ml-auto" src="https://en.pimg.jp/062/835/873/1/62835873.jpg" alt=".." />
+          <img class="footer-logo-img ml-auto" src="https://en.pimg.jp/062/835/873/1/62835873.jpg" alt=".." />
           <p className="para">
             D.No 16-11-511/c/27,<br/>
             Shalivahana nagar,Moosarambagh,<br/>

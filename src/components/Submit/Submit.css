@@ -4,6 +4,7 @@
     padding: 25px;
     border-radius: 10px;
     height: fit-content;
+    margin-top: 20px;
     
 }
 .form{
@@ -17,8 +18,8 @@
     
 }
 input{
-    height: 40px;
-    width:400px;
+    height: 30px;
+    width:350px;
     background-color: #d7d2d2;
     border: none;
     border-radius: 10px;
@@ -36,4 +37,21 @@ button:hover{
     color:rgb(56, 170, 202);
     background-color:white;
     border: solid;
+}
+
+@media (max-width:976px) {
+    input{
+        height: 30px;
+        width:300px;
+        background-color: #d7d2d2;
+        border: none;
+        border-radius: 10px;
+    }
+    form h3{
+        font-size: 17px;
+    }
+    .submit-main-container h1{
+        font-size: 20px;
+    }
+
 }
