@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding:30px 10px 20px 10px;
+    
 }
 .contact-main-container h1{
     color: blue;
@@ -12,8 +13,8 @@
    border: 1px solid;
 }
 .map-view{
-    height:350px;
-    width:50vw;
+    height:400px;
+    width:48vw;
 }
 
 @media (max-width:976px) {
@@ -36,5 +37,7 @@
      .contact-main-container h4{
         font-size: 14px;
      }
-    
+     .address{
+        text-align: center;
+     }
 }

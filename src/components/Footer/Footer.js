@@ -41,7 +41,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <br/><br/><br/>
+
 
         <div>
           <h1 class="heading">Our Services</h1>

@@ -18,8 +18,10 @@ export default function Home(){
 
                 <div className="special-mini-container">
                     <div className="shadow-container">
+                        
                         <img src="https://www.armourycoachingstudio.co.uk/uploads/1/2/9/5/129586512/3_orig.jpg" alt="small_grop_img"/>
                         <h2>SMALL GROUP PERSONAL TRAINING</h2>
+                        
                         <p>Our Small Group Personal Training is unlike anything you'll have experienced before. 
                             In micro training groups of just 6:1, all your workouts are customised, 
                             recorded and coached by an experienced personal trainer. 

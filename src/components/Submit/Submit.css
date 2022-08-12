@@ -1,6 +1,6 @@
 .submit-main-container{
     width:fit-content;
-    background-color: rgb(223, 220, 220);
+    background-color: #efeded;
     padding: 25px;
     border-radius: 10px;
     height: fit-content;
@@ -20,9 +20,9 @@
 input{
     height: 30px;
     width:350px;
-    background-color: #d7d2d2;
+    background-color: #f2f2f2;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .sub-but{
     color: white;
@@ -42,10 +42,10 @@ button:hover{
 @media (max-width:976px) {
     input{
         height: 30px;
-        width:300px;
-        background-color: #d7d2d2;
+        width:250px;
+        background-color: #f2f2f2;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     form h3{
         font-size: 17px;
